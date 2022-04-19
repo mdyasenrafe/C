@@ -9,13 +9,19 @@ int main() {
     int totalMarks =  mathMarks + englishMarks;
     printf("Total Marks %d " , totalMarks); */
 
-    //double input value
-    int scienceMarks , chemistryMarks;
-    printf("Please enter your sciece and chemistry marks : ");
-    scanf("%d %d" , &scienceMarks, &chemistryMarks);
-    int totalMarks2 = scienceMarks + chemistryMarks;
+		for (int i=0; i<3; i++) {
+    	for (int j=0; j<5; j++) {
+        	printf("*");
+    	}
+	}
 
-     printf("Total Marks %d" , totalMarks2);
+    //double input value
+//    int scienceMarks , chemistryMarks;
+  //  printf("Please enter your sciece and chemistry marks : ");
+    //scanf("%d %d" , &scienceMarks, &chemistryMarks);
+    //int totalMarks2 = scienceMarks + chemistryMarks;
+
+    // printf("Total Marks %d" , totalMarks2);
 
     return 0;
 }
