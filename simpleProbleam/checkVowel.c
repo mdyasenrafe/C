@@ -6,10 +6,10 @@ int main() {
     scanf("%c" , &text);
 
     if(text == 'a' || text == 'e' || text == 'i' || text == 'o' || text == 'u'){
-        printf("Vowel\n");
+        printf("vowel");
     }
     else{
-        printf("Constant\n");
+        printf("consonant");
     }
 //swicth case method
 
