@@ -1,11 +1,7 @@
 #include<stdio.h>
 
 int main() {
-//    int i = 1;
-//    while (i <= 5){
-//        printf("%d" , i);
-//        i++;
-//    }
+
     int money =0;
     int target = 100;
     while(money <= target){
