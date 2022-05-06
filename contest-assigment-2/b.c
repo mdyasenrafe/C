@@ -1,5 +1,5 @@
-#include <stdio.h>
 
+#include <stdio.h>
 int main() {
     int a;
     int  result;
@@ -11,7 +11,8 @@ int main() {
         result = c - b;
         if(result !=0 && result != 1){
             count++;
-        }
+         }
+
     }
     printf("%d\n" , count);
     return 0;
